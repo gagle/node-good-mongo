@@ -1,0 +1,21 @@
+{
+  "name": "good-mongo",
+  "version": "0.1.0",
+  "description": "MongoDB broadcasting for Good process monitor",
+  "keywords": [
+    "good",
+    "reporter",
+    "hapi",
+    "mongodb"
+  ],
+  "author": "Gabriel Llamas <gagle@outlook.com>",
+  "repository": "git://github.com/gagle/node-good-mongo.git",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "good-reporter": "^3.0.1"
+  },
+  "license": "MIT",
+  "main": "lib"
+}
