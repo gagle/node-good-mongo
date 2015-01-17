@@ -3,6 +3,8 @@ good-mongo
 
 #### MongoDB broadcasting for Good process monitor ####
 
+[![npm][npm-image]][npm-url]
+
 This is a [good-reporter][good-reporter] implementation to write [hapi][hapi] server events to a MongoDB database.
 
 MongoDB has the concept of a [Capped collection][capped-collection] and it can be used for logging purposes. This reporter tries to create a capped collection when the plugin is registered. However, it's not required to have the connection open at the time of registering the plugin, it will try to prepare the collection later each time a log event is emitted.
@@ -29,6 +31,8 @@ Creates a new GoodMongo instance with the following arguments:
   - __force__ - _Boolean_  
     If the collection already exists, it is converted into a capped collection. Default `false`.
 
+[npm-image]: https://img.shields.io/npm/v/getmod.svg?style=flat
+[npm-url]: https://npmjs.org/package/getmod
 [good-reporter]: https://github.com/hapijs/good-reporter
 [good]: https://github.com/hapijs/good
 [hapi]: http://hapijs.com
