@@ -13,8 +13,7 @@ __GoodMongo(events, db[, options])__
 Creates a new GoodMongo instance with the following arguments:
 
 - __events__ - _Object_  
-  Object with key-value pairs.
-
+  Object with key-value pairs.  
   _key_: One of the supported [good events][good] indicating the hapi event to subscribe to.  
   _value_: A single string or an array of strings to filter incoming events. `*` indicates no filtering. `null` and `undefined` are assumed to be `*`.
 - __db__ - _Object_  
