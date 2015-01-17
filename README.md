@@ -30,8 +30,8 @@ Creates a new GoodMongo instance with the following arguments:
   - __force__ - _Boolean_  
     If the collection already exists, it is converted into a capped collection. Default `false`.
 
-[npm-image]: https://img.shields.io/npm/v/getmod.svg?style=flat
-[npm-url]: https://npmjs.org/package/getmod
+[npm-image]: https://img.shields.io/npm/v/good-mongo.svg?style=flat
+[npm-url]: https://npmjs.org/package/good-mongo
 [good-reporter]: https://github.com/hapijs/good-reporter
 [good]: https://github.com/hapijs/good
 [hapi]: http://hapijs.com
