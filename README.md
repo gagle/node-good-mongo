@@ -19,16 +19,18 @@ Creates a new GoodMongo instance with the following arguments:
 - __db__ - _Object_  
   MongoDB's `Db` instance. It's assumed that the connection is already opened, however it won't fail if it's not. The user is responsible for the connection's lifecycle.
 - __options__ - _Object_  
-  - __collection__ - _String_
-    Name of the collection. Default `logs`.
   - __capped__ - _Boolean_  
     If the collection doesn't exist, creates a new capped collection. Default `false`.
-  - __size__ - _Number_  
-    Size in bytes of the capped collection. Default `10000000` (10MB rounded up to the nearest multiple of 256).
-  - __max__ - _Number_  
-    Maximum number of documents allowed in the capped collection. Default `undefined`.
+  - __collection__ - _String_
+    Name of the collection. Default `logs`.
   - __force__ - _Boolean_  
     If the collection already exists, it is converted into a capped collection. Default `false`.
+  - __max__ - _Number_  
+    Maximum number of documents allowed in the capped collection. Default `undefined`.
+  - __onerror__ - _Function_  
+    When inserting the event to the database, errors may occur. If the event can't be inserted, then there's surely an issue with MongoDB. This error can be ignored.
+  - __size__ - _Number_  
+    Size in bytes of the capped collection. Default `10000000` (10MB rounded up to the nearest multiple of 256).
 
 [npm-image]: https://img.shields.io/npm/v/good-mongo.svg?style=flat
 [npm-url]: https://npmjs.org/package/good-mongo
