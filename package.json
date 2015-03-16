@@ -1,6 +1,6 @@
 {
   "name": "good-mongo",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "MongoDB broadcasting for Good process monitor",
   "keywords": [
     "good",

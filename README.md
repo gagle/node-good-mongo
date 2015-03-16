@@ -22,7 +22,7 @@ Creates a new GoodMongo instance with the following arguments:
   - __capped__ - _Boolean_  
     If the collection doesn't exist, creates a new capped collection. Default `false`.
   - __collection__ - _String_
-    Name of the collection. Default `logs`.
+    Name of the collection. Default `log`.
   - __force__ - _Boolean_  
     If the collection already exists, it is converted into a capped collection. Default `false`.
   - __max__ - _Number_  
