@@ -14,7 +14,12 @@
     "node": ">=0.10"
   },
   "dependencies": {
-    "good-reporter": "^3.0.1"
+    "good-squeeze": "2.x.x"
+  },
+  "peerDependencies": {
+    "good": ">= 6.x.x"
+  },
+  "devDependencies": {
   },
   "license": "MIT",
   "main": "lib"
